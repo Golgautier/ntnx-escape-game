@@ -28,6 +28,21 @@ labOk={
         "Top, t'est un pro",
         "T'es un maître",
         "Facile",
+    ],
+    "de": [
+        "Du bist gut",
+        "Wow, du rockst",
+        "Du machst das großartig",
+        "Du bist großartig",
+        "Du bist der Beste",
+        "Du bist der Beste der Besten",
+        "Perfekt, es ist hier",
+        "Du bist beeindruckend",
+        "Hast du das dein ganzes Leben lang gemacht?",
+        "Du bist ein Genie",
+        "Schön, du bist ein Profi",
+        "Du bist ein Meister",
+        "easy peasy"
     ]
 }
 
@@ -49,16 +64,27 @@ labKo={
         'Un truc cloche',
         'Ça va pas',
         'Je te croyais meilleur en fait'
+    ],
+    "de": [
+        'Ups, klingt nicht gut. Bitte überprüfen Sie es',
+        'Nein, versuche es erneut',
+        'Hum, ich sehe es nicht, schau dir das bitte an',
+        'Scheint falsch zu sein, behebe das',
+        'Leider ist es nicht hier',
+        'Überprüfen Sie es bitte noch einmal',
+        'Ich kannte dich besser, versuche es erneut'
     ]
 }
 
 labRetry={
     "en": "When it is done, hit 'Enter'",
-    "fr": "Quand c'est fait, appuies sur 'Entrée'"
+    "fr": "Quand c'est fait, appuies sur 'Entrée'",
+    "de": "Wenn es erledigt ist, drücken Sie 'Enter'"
 }
 
 labRetryWithValue={
     "en": "When it is ok, put the good value here and press 'Enter'.",
-    "fr": "Quand c'est bon, mets la bonne valeur ici et appuies sur 'Entrée'."
+    "fr": "Quand c'est bon, mets la bonne valeur ici et appuies sur 'Entrée'.",
+    "de": "Wenn es in Ordnung ist, geben Sie den richtigen Wert hier ein und drücken Sie 'Enter'."
 }
     

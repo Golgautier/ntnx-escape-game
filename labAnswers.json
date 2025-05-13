@@ -6,7 +6,8 @@
             "clues": [
                 {
                     "en": "",
-                    "fr": ""
+                    "fr": "",
+                    "de": ""
                 }
             ]
         },
@@ -15,15 +16,18 @@
             "clues": [
                 {
                     "en": "The user #>V:Trigram#-adm hasn't been found. Are you sure you've created it with the correct name?",
-                    "fr": "L'utilisateur #>V:Trigram#-adm n'a pas été trouvé. Êtes-vous sûr de l'avoir créé avec le bon nom ?"
+                    "fr": "L'utilisateur #>V:Trigram#-adm n'a pas été trouvé. Êtes-vous sûr de l'avoir créé avec le bon nom ?",
+                    "de": "Der Benutzer #>V:Trigram#-adm wurde nicht gefunden. Sind Sie sicher, dass Sie ihn mit dem richtigen Namen erstellt haben?"
                 },
                 {
                     "en": "The authorization policy #>V:Trigram#-auth is not created as requested. Are you sure you've created it with the correct name?",
-                    "fr": "La politique d'authorisation #>V:Trigram#-auth est absente. L'avez vous créée avec le bon nom ?"
+                    "fr": "La politique d'autorisation #>V:Trigram#-auth est absente. L'avez vous créée avec le bon nom ?",
+                    "de": "Die Autorisierungspolitik #>V:Trigram#-auth ist nicht wie gewünscht erstellt worden. Sind Sie sicher, dass Sie sie mit dem richtigen Namen erstellt haben?"
                 },
                 {
                     "en": "The authorization policy #>V:Trigram#-auth exist, but is not correctly assigning the role to the user. Are you sure you've assigned the correct ressources?",
-                    "fr": "La politique d'authorisation #>V:Trigram#-auth existe, mais n'assigne pas correctement le rôle à l'utilisateur. Êtes-vous sûr d'avoir assigné les bonnes ressources ?"
+                    "fr": "La politique d'autorisation #>V:Trigram#-auth existe, mais n'assigne pas correctement le rôle à l'utilisateur. Êtes-vous sûr d'avoir assigné les bonnes ressources ?",
+                    "de": "Die Autorisierungspolitik #>V:Trigram#-auth existiert, aber weist dem Benutzer nicht korrekt die Rolle zu. Sind Sie sicher, dass Sie die richtigen Ressourcen zugewiesen haben?"
                 }
                 
             ]
@@ -33,15 +37,18 @@
             "clues": [
                 {
                     "en": "The project #>V:Trigram#-proj doesn't exist. Are you sure you named it correctly?",
-                    "fr": "Le projet #>V:Trigram#-proj n'existe pas. Êtes-vous sûr de l'avoir nommé correctement ?"
+                    "fr": "Le projet #>V:Trigram#-proj n'existe pas. Êtes-vous sûr de l'avoir nommé correctement ?",
+                    "de": "Das Projekt #>V:Trigram#-proj existiert nicht. Sind Sie sicher, dass Sie es richtig benannt haben?"
                 },
                 {
                     "en": "The project #>V:Trigram#-proj doesn't have any cluster associated. Can you fix it ?",
-                    "fr": "Le projet #>V:Trigram#-proj n'a pas de cluster associé. Pouvez-vous le corriger ?"
+                    "fr": "Le projet #>V:Trigram#-proj n'a pas de cluster associé. Pouvez-vous le corriger ?",
+                    "de": "Das Projekt #>V:Trigram#-proj hat keinen Cluster zugeordnet. Können Sie das beheben ?"
                 },
                 {
                     "en": "The project #>V:Trigram#-proj doesn't have any user associated. Can you fix it ?",
-                    "fr": "Le projet #>V:Trigram#-proj n'a pas d'utilisateur associé. Pouvez-vous corriger ça ?"
+                    "fr": "Le projet #>V:Trigram#-proj n'a pas d'utilisateur associé. Pouvez-vous corriger ça ?",
+                    "de": "Das Projekt #>V:Trigram#-proj hat keinen Benutzer zugeordnet. Können Sie das beheben ?"
                 }                
             ]
         },
@@ -50,11 +57,13 @@
             "clues": [
                 {
                     "en": "The subnet #>V:Trigram#-subnet is not on the cluster. Are you sure you named it correctly?",
-                    "fr": "Le réseau #>V:Trigram#-subnet n'est pas sur le cluster. Êtes-vous sûr de l'avoir nommé correctement ?"
+                    "fr": "Le réseau #>V:Trigram#-subnet n'est pas sur le cluster. Êtes-vous sûr de l'avoir nommé correctement ?",
+                    "de": "Das Subnetz #>V:Trigram#-subnet ist nicht im Cluster. Sind Sie sicher, dass Sie es richtig benannt haben?"
                 },
                 {
                     "en": "The subnet #>V:Trigram#-subnet is not correctly configured, is mode is 'Basic'. Can you fix it ?",
-                    "fr": "Le réseau #>V:Trigram#-subnet n'est pas correctement configuré, son mode est 'Basic'. Pouvez-vous le passer en advanced ?"
+                    "fr": "Le réseau #>V:Trigram#-subnet n'est pas correctement configuré, son mode est 'Basic'. Pouvez-vous le passer en advanced ?",
+                    "de": "Das Subnetz #>V:Trigram#-subnet ist nicht korrekt konfiguriert, sein Modus ist 'Basic'. Können Sie es auf 'Advanced' ändern ?"
                 }               
             ]
         },
@@ -63,7 +72,8 @@
             "clues": [
                 {
                     "en": "Are you sure you created the image #>V:Trigram#-ubuntu ? I do not see it?",
-                    "fr": "Êtes-vous sûr d'avoir créé l'image #>V:Trigram#-ubuntu ? Je ne la vois pas ?"
+                    "fr": "Êtes-vous sûr d'avoir créé l'image #>V:Trigram#-ubuntu ? Je ne la vois pas ?",
+                    "de": "Sind Sie sicher, dass Sie das Image #>V:Trigram#-ubuntu erstellt haben ? Ich sehe es nicht ?"
                 }
             ]
         },
@@ -72,31 +82,38 @@
             "clues": [
                 {
                     "en": "The VM #>V:Trigram#-vm is not on the cluster. Are you sure you named it correctly?",
-                    "fr": "La VM #>V:Trigram#-vm n'est pas sur le cluster. Êtes-vous sûr de l'avoir nommée correctement ?"
+                    "fr": "La VM #>V:Trigram#-vm n'est pas sur le cluster. Êtes-vous sûr de l'avoir nommée correctement ?",
+                    "de": "Die VM #>V:Trigram#-vm ist nicht im Cluster. Sind Sie sicher, dass Sie sie richtig benannt haben ?"
                 },
                 {
                     "en": "The VM #>V:Trigram#-vm should have 2 NICs. Are you sure you've configured it properly?",
-                    "fr": "La VM #>V:Trigram#-vm devrait avoir 2 NICs. Êtes-vous sûr de l'avoir configurée correctement ?"
+                    "fr": "La VM #>V:Trigram#-vm devrait avoir 2 NICs. Êtes-vous sûr de l'avoir configurée correctement ?",
+                    "de": "Die VM #>V:Trigram#-vm sollte 2 NICs haben. Sind Sie sicher, dass Sie sie richtig konfiguriert haben ?"
                 },
                 {
                     "en": "The VM #>V:Trigram#-vm should be connected to the network #>V:Trigram#-subnet. It looks like it is not done. Can you check ?",
-                    "fr": "La VM #>V:Trigram#-vm devrait être connectée au réseau #>V:Trigram#-subnet. Il semble que ce ne soit pas le cas. Pouvez-vous vérifier ?"
+                    "fr": "La VM #>V:Trigram#-vm devrait être connectée au réseau #>V:Trigram#-subnet. Il semble que ce ne soit pas le cas. Pouvez-vous vérifier ?",
+                    "de": "Die VM #>V:Trigram#-vm sollte mit dem Netzwerk #>V:Trigram#-subnet verbunden sein. Es sieht so aus, als ob dies nicht der Fall ist. Können Sie das überprüfen ?"
                 },
                 {
                     "en": "The VM #>V:Trigram#-vm should be based on the image #>V:Trigram#-ubuntu. It seems not to be the case. Can you fix it ?",
-                    "fr": "La VM #>V:Trigram#-vm devrait être basée sur l'image #>V:Trigram#-ubuntu. Il semble que ce ne soit pas le cas. Pouvez-vous corriger ça ?"
+                    "fr": "La VM #>V:Trigram#-vm devrait être basée sur l'image #>V:Trigram#-ubuntu. Il semble que ce ne soit pas le cas. Pouvez-vous corriger ça ?",
+                    "de": "Die VM #>V:Trigram#-vm sollte auf dem Image #>V:Trigram#-ubuntu basieren. Es scheint nicht der Fall zu sein. Können Sie das beheben ?"
                 },
                 {
                     "en": "The VM #>V:Trigram#-vm should be in the project #>V:Trigram#-proj. It seems not to be the case. Can you fix it ?",
-                    "fr": "La VM #>V:Trigram#-vm devrait être dans le projet #>V:Trigram#-proj. Il semble que ce ne soit pas le cas. Pouvez-vous corriger ça ?"
+                    "fr": "La VM #>V:Trigram#-vm devrait être dans le projet #>V:Trigram#-proj. Il semble que ce ne soit pas le cas. Pouvez-vous corriger ça ?",
+                    "de": "Die VM #>V:Trigram#-vm sollte im Projekt #>V:Trigram#-proj sein. Es scheint nicht der Fall zu sein. Können Sie das beheben ?"
                 },
                 {
                     "en": "Your should have cloud-init configured. It seems not to be the case. Can you fix it or I won't able to connect on ? You'll have to recreate it, unfortunately.",
-                    "fr": "Vous devriez avoir cloud-init configuré. Il semble que ce ne soit pas le cas. Pouvez-vous corriger ça ou je ne pourrai pas me connecter ? Vous devrez la recréer, malheureusement."
+                    "fr": "Vous devriez avoir cloud-init configuré. Il semble que ce ne soit pas le cas. Pouvez-vous corriger ça ou je ne pourrai pas me connecter ? Vous devrez la recréer, malheureusement.",
+                    "de": "Sie sollten cloud-init konfiguriert haben. Es scheint nicht der Fall zu sein. Können Sie das beheben oder kann ich mich nicht verbinden ? Sie müssen es leider neu erstellen."
                 },
                 {
                     "en": "The VM #>V:Trigram#-vm is not powered on. Are you sure you started it?",
-                    "fr": "La VM #>V:Trigram#-vm n'est pas allumée. Êtes-vous sûr de l'avoir démarrée ?"
+                    "fr": "La VM #>V:Trigram#-vm n'est pas allumée. Êtes-vous sûr de l'avoir démarrée ?",
+                    "de": "Die VM #>V:Trigram#-vm ist nicht eingeschaltet. Sind Sie sicher, dass Sie sie gestartet haben ?"
                 }                
             ]
         },
@@ -105,15 +122,18 @@
             "clues": [
                 {
                     "en": "The category #>V:Trigram#-cat doesn't exist. Are you sure you named it correctly?",
-                    "fr": "La catégorie #>V:Trigram#-cat n'existe pas. Êtes-vous sûr de l'avoir nommée correctement ?"
+                    "fr": "La catégorie #>V:Trigram#-cat n'existe pas. Êtes-vous sûr de l'avoir nommée correctement ?",
+                    "de": "Die Kategorie #>V:Trigram#-cat existiert nicht. Sind Sie sicher, dass Sie sie richtig benannt haben ?"
                 },
                 {
                     "en": "The category #>V:Trigram#-cat exists, But I do not see the 'Test' value...",
-                    "fr": "La catégorie #>V:Trigram#-cat existe, mais je ne vois pas la valeur 'Test'..."
+                    "fr": "La catégorie #>V:Trigram#-cat existe, mais je ne vois pas la valeur 'Test'...",
+                    "de": "Die Kategorie #>V:Trigram#-cat existiert, aber ich sehe den Wert 'Test' nicht..."
                 },
                 {
                     "en": "The category #>V:Trigram#-cat exists, But I do not see the 'Critical' value...",
-                    "fr": "La catégorie #>V:Trigram#-cat existe, mais je ne vois pas la valeur 'Critical'..."
+                    "fr": "La catégorie #>V:Trigram#-cat existe, mais je ne vois pas la valeur 'Critical'...",
+                    "de": "Die Kategorie #>V:Trigram#-cat existiert, aber ich sehe den Wert 'Critical' nicht..."
                 }
             ]
         },
@@ -122,7 +142,8 @@
             "clues": [
                 {
                     "en": "The VM #>V:Trigram#-vm is not associated to the category #>V:Trigram#-cat with value 'Critical'. Can you fix it ?",
-                    "fr": "La VM #>V:Trigram#-vm n'est pas associée à la catégorie #>V:Trigram#-cat avec la valeur 'Critical'. Pouvez-vous corriger ça ?"
+                    "fr": "La VM #>V:Trigram#-vm n'est pas associée à la catégorie #>V:Trigram#-cat avec la valeur 'Critical'. Pouvez-vous corriger ça ?",
+                    "de": "Die VM #>V:Trigram#-vm ist nicht mit der Kategorie #>V:Trigram#-cat mit dem Wert 'Critical' verknüpft. Können Sie das beheben ?"
                 }
             ]
         },
@@ -131,7 +152,8 @@
             "clues": [
                 {
                     "en": "Are you sure you created the storage policy #>V:Trigram#-sto-policy ? I did not find it...",
-                    "fr": "Etes-vous sûr d'avoir créé la storage policy #>V:Trigram#-sto-policy ? Je ne la trouve pas..."
+                    "fr": "Etes-vous sûr d'avoir créé la storage policy #>V:Trigram#-sto-policy ? Je ne la trouve pas...",
+                    "de": "Sind Sie sicher, dass Sie die Storage-Policy #>V:Trigram#-sto-policy erstellt haben ? Ich finde sie nicht..."
                 }
             ]
         },
@@ -140,19 +162,23 @@
             "clues": [
                 {
                     "en": "Are you sure you created the security policy #>V:Trigram#-mseg-policy ? I guess you should double check ;-) ?",
-                    "fr": "Etes-vous sûr d'avoir créé la security policy #>V:Trigram#-mseg-policy ? Je pense que vous devriez vérifier ;-) ?"
+                    "fr": "Etes-vous sûr d'avoir créé la security policy #>V:Trigram#-mseg-policy ? Je pense que vous devriez vérifier ;-) ?",
+                    "de": "Sind Sie sicher, dass Sie die Sicherheitsrichtlinie #>V:Trigram#-mseg-policy erstellt haben ? Ich denke, Sie sollten das überprüfen ;-) ?"
                 },
                 {
                     "en": "The security policy is not associated to your category. Can you check ?",
-                    "fr": "La security policy n'est pas associée à votre catégorie. Pouvez-vous vérifier ?"
+                    "fr": "La security policy n'est pas associée à votre catégorie. Pouvez-vous vérifier ?",
+                    "de": "Die Sicherheitsrichtlinie ist nicht mit Ihrer Kategorie verknüpft. Können Sie das überprüfen ?"
                 },
                 {
                     "en": "The security policy is not in enforce mode. Can you change it ?",
-                    "fr": "La security policy n'est pas en mode enforce. Pouvez-vous la changer ?"
+                    "fr": "La security policy n'est pas en mode enforce. Pouvez-vous la changer ?",
+                    "de": "Die Sicherheitsrichtlinie ist nicht im Durchsetzungsmodus. Können Sie das ändern ?"
                 },
                 {
                     "en": "The security policy seems not authorize all outbound protocols. Can you check ?",
-                    "fr": "La security policy ne semble pas autoriser tous les protocoles sortants. Pouvez-vous vérifier ?"
+                    "fr": "La security policy ne semble pas autoriser tous les protocoles sortants. Pouvez-vous vérifier ?",
+                    "de": "Die Sicherheitsrichtlinie scheint nicht alle ausgehenden Protokolle zuzulassen. Können Sie das überprüfen ?"
                 }
 
             ]
@@ -162,15 +188,18 @@
             "clues": [
                 {
                     "en": "Are you sure you created the security policy #>V:Trigram#-mseg-policy ? I guess you should double check ;-) ?",
-                    "fr": "Etes-vous sûr d'avoir créé la security policy #>V:Trigram#-mseg-policy ? Je pense que vous devriez vérifier ;-) ?"
+                    "fr": "Etes-vous sûr d'avoir créé la security policy #>V:Trigram#-mseg-policy ? Je pense que vous devriez vérifier ;-) ?",
+                    "de": "Sind Sie sicher, dass Sie die Sicherheitsrichtlinie #>V:Trigram#-mseg-policy erstellt haben ? Ich denke, Sie sollten das überprüfen ;-) ?"
                 },
                 {
                     "en": "The security policy seems not authorize the ssh service. Can you check ?",
-                    "fr": "La security policy ne semble pas autoriser le service ssh. Pouvez-vous vérifier ?"
+                    "fr": "La security policy ne semble pas autoriser le service ssh. Pouvez-vous vérifier ?",
+                    "de": "Die Sicherheitsrichtlinie scheint den SSH-Dienst nicht zuzulassen. Können Sie das überprüfen ?"
                 },
                 {
                     "en": "The security policy seems not authorize the icmp service. Can you check ?",
-                    "fr": "La security policy ne semble pas autoriser le service icmp. Pouvez-vous vérifier ?"
+                    "fr": "La security policy ne semble pas autoriser le service icmp. Pouvez-vous vérifier ?",
+                    "de": "Die Sicherheitsrichtlinie scheint den ICMP-Dienst nicht zuzulassen. Können Sie das überprüfen ?"
                 }
             ]
         },
@@ -179,23 +208,28 @@
             "clues": [
                 {
                     "en": "Are you sure you created the protection policy #>V:Trigram#-prot-policy ? I did not find it?",
-                    "fr": "Etes-vous sûr d'avoir créé la protection policy #>V:Trigram#-prot-policy ? Je ne la trouve pas ?"
+                    "fr": "Etes-vous sûr d'avoir créé la protection policy #>V:Trigram#-prot-policy ? Je ne la trouve pas ?",
+                    "de": "Sind Sie sicher, dass Sie die Schutzrichtlinie #>V:Trigram#-prot-policy erstellt haben ? Ich finde sie nicht ?"
                 },
                 {
                     "en": "It looks like the snapshot schedule is not set to 1 hour. Can you fix it ?",
-                    "fr": "Il semble que le snapshot schedule ne soit pas configuré à 1 heure. Pouvez-vous le corriger ?"
+                    "fr": "Il semble que le snapshot schedule ne soit pas configuré à 1 heure. Pouvez-vous le corriger ?",
+                    "de": "Es scheint, dass der Snapshot-Zeitplan nicht auf 1 Stunde eingestellt ist. Können Sie das beheben ?"
                 },
                 {
                     "en": "It looks like the snapshot retention is not set to 1 day. Can you fix it ?",
-                    "fr": "Il semble que la rétention des snapshots ne soit pas configurée à 1 jour. Pouvez-vous le corriger ?"
+                    "fr": "Il semble que la rétention des snapshots ne soit pas configurée à 1 jour. Pouvez-vous le corriger ?",
+                    "de": "Es scheint, dass die Snapshot-Aufbewahrung nicht auf 1 Tag eingestellt ist. Können Sie das beheben ?"
                 },
                 {
                     "en": "It looks like the category filter is not set correctly. Can you fix it ?",
-                    "fr": "Il semble que le filtre de catégorie ne soit pas configuré correctement. Pouvez-vous le corriger ?"
+                    "fr": "Il semble que le filtre de catégorie ne soit pas configuré correctement. Pouvez-vous le corriger ?",
+                    "de": "Es scheint, dass der Kategorienfilter nicht korrekt eingestellt ist. Können Sie das beheben ?"
                 },
                 {
                     "en": "It looks like the category value is not set correctly. Can you fix it ?",
-                    "fr": "Il semble que la valeur de catégorie ne soit pas configurée correctement. Pouvez-vous le corriger ?"
+                    "fr": "Il semble que la valeur de catégorie ne soit pas configurée correctement. Pouvez-vous le corriger ?",
+                    "de": "Es scheint, dass der Kategorienwert nicht korrekt eingestellt ist. Können Sie das beheben ?"
                 }
             ]
         },
@@ -204,11 +238,13 @@
             "clues": [
                 {
                     "en": "Are you sure you created the approval policy #>V:ApprovalPolicy#? I did not see it.",
-                    "fr": "Etes-vous sûr d'avoir créé l'approval policy #>V:ApprovalPolicy# ? Je ne la vois pas."
+                    "fr": "Etes-vous sûr d'avoir créé l'approval policy #>V:ApprovalPolicy# ? Je ne la vois pas.",
+                    "de": "Sind Sie sicher, dass Sie die Genehmigungsrichtlinie #>V:ApprovalPolicy# erstellt haben ? Ich sehe sie nicht."
                 },
                 {
                     "en": "The approval policy is not linked to the previous protection policy. Can you fix it ?",
-                    "fr": "L'approuval policy n'est pas liée à la protection policy précédente. Pouvez-vous corriger ça ?"
+                    "fr": "L'approuval policy n'est pas liée à la protection policy précédente. Pouvez-vous corriger ça ?",
+                    "de": "Die Genehmigungsrichtlinie ist nicht mit der vorherigen Schutzrichtlinie verknüpft. Können Sie das beheben ?"
                 }
             ]
         },
@@ -217,11 +253,13 @@
             "clues": [
                 {
                     "en": "The VM #>V:Trigram#-vm is not on the cluster. Are you sure you restored it correctly?",
-                    "fr": "La VM #>V:Trigram#-vm n'est pas sur le cluster. Êtes-vous sûr de l'avoir restaurée sous le bon nom ?"
+                    "fr": "La VM #>V:Trigram#-vm n'est pas sur le cluster. Êtes-vous sûr de l'avoir restaurée sous le bon nom ?",
+                    "de": "Die VM #>V:Trigram#-vm ist nicht im Cluster. Sind Sie sicher, dass Sie sie unter dem richtigen Namen wiederhergestellt haben ?"
                 },
                 {
                     "en": "The VM #>V:Trigram#-vm is not started. Can you fix this?",
-                    "fr": "La VM #>V:Trigram#-vm n'est pas démarrée. Vous pouvwz corriger le souci ?"
+                    "fr": "La VM #>V:Trigram#-vm n'est pas démarrée. Vous pouvwz corriger le souci ?",
+                    "de": "Die VM #>V:Trigram#-vm ist nicht gestartet. Können Sie das beheben ?"
                 }
             ]
         },
@@ -230,7 +268,8 @@
             "clues": [
                 {
                     "en": "The VM is still on the same host, move it right now please !",
-                    "fr": "La VM est toujours sur le même hôte, déplacez-la immédiatement s'il vous plaît !"
+                    "fr": "La VM est toujours sur le même hôte, déplacez-la immédiatement s'il vous plaît !",
+                    "de": "Die VM ist immer noch auf demselben Host, verschieben Sie sie bitte sofort !"
                 }
             ]
         },
@@ -239,19 +278,23 @@
             "clues": [
                 {
                     "en": "The report #>V:Trigram#-report is not on the cluster. Are you sure you named it correctly?",
-                    "fr": "Le rapport #>V:Trigram#-report n'est pas sur le cluster. Êtes-vous sûr de l'avoir nommé correctement ?"
+                    "fr": "Le rapport #>V:Trigram#-report n'est pas sur le cluster. Êtes-vous sûr de l'avoir nommé correctement ?",
+                    "de": "Der Bericht #>V:Trigram#-report ist nicht im Cluster. Sind Sie sicher, dass Sie ihn richtig benannt haben ?"
                 },
                 {
                     "en": "The report #>V:Trigram#-report should be scheduled daily. Can you fix it ?",
-                    "fr": "Le rapport #>V:Trigram#-report devrait être planifié quotidiennement. Pouvez-vous corriger ça ?"
+                    "fr": "Le rapport #>V:Trigram#-report devrait être planifié quotidiennement. Pouvez-vous corriger ça ?",
+                    "de": "Der Bericht #>V:Trigram#-report sollte täglich geplant werden. Können Sie das beheben ?"
                 },
                 {
                     "en": "The report does not have te good recipient. Can you check that ?",
-                    "fr": "Le rapport n'a pas le bon destinataire. Pouvez-vous vérifier ça ?"
+                    "fr": "Le rapport n'a pas le bon destinataire. Pouvez-vous vérifier ça ?",
+                    "de": "Der Bericht hat nicht den richtigen Empfänger. Können Sie das überprüfen ?"
                 },
                 {
                     "en": "The report #>V:Trigram#-report should just have a table with a list of all the VMs. Can you fix it ?",
-                    "fr": "Le rapport #>V:Trigram#-report devrait simplement comporter un tableau avec la liste des VMs. Pouvez-vous corriger ça ?"
+                    "fr": "Le rapport #>V:Trigram#-report devrait simplement comporter un tableau avec la liste des VMs. Pouvez-vous corriger ça ?",
+                    "de": "Der Bericht #>V:Trigram#-report sollte nur eine Tabelle mit einer Liste aller VMs enthalten. Können Sie das beheben ?"
                 }
             ]
         },
@@ -260,11 +303,13 @@
             "clues": [
                 {
                     "en": "I did not find the serial number of the new node. Can you check it ?",
-                    "fr": "Je n'ai pas trouvé le numéro de série du nouveau noeud. Pouvez-vous vérifier ?"
+                    "fr": "Je n'ai pas trouvé le numéro de série du nouveau noeud. Pouvez-vous vérifier ?",
+                    "de": "Ich habe die Seriennummer des neuen Knotens nicht gefunden. Können Sie das überprüfen ?"
                 },
                 {
                     "en": "This serial is really weird... Please double-check !",
-                    "fr": "Ce numéro de série est vraiment bizarre... Merci de vérifier !"
+                    "fr": "Ce numéro de série est vraiment bizarre... Merci de vérifier !",
+                    "de": "Diese Seriennummer ist wirklich seltsam... Bitte überprüfen Sie das !"
                 }
             ]
         },
@@ -273,7 +318,8 @@
             "clues": [
                 {
                     "en": "The number of updates is not the one expected. Can you double-check it ?",
-                    "fr": "Le nombre de mises à jour n'est pas celui que je pensais. Pouvez-vous vérifier ?"
+                    "fr": "Le nombre de mises à jour n'est pas celui que je pensais. Pouvez-vous vérifier ?",
+                    "de": "Die Anzahl der Updates ist nicht die erwartete. Können Sie das bitte überprüfen ?"
                 }
             ]
         },
@@ -282,7 +328,8 @@
             "clues": [
                 {
                     "en": "The runway is not the one expected. Can you verify it ? ",
-                    "fr": "Le temps avant remplissage n'est pas celui que je pensais. Pouvez-vous vérifier ?"
+                    "fr": "Le temps avant remplissage n'est pas celui que je pensais. Pouvez-vous vérifier ?",
+                    "de": "Die Landebahn ist nicht die erwartete. Können Sie das überprüfen ?"
                 }
             ]
         },
@@ -291,19 +338,23 @@
             "clues": [
                 {
                     "en": "The playbook #>V:Trigram#-playbook is not on the cluster. Are you sure you named it correctly?",
-                    "fr": "Le playbook #>V:Trigram#-playbook n'est pas sur le cluster. Êtes-vous sûr de l'avoir nommé correctement ?"
+                    "fr": "Le playbook #>V:Trigram#-playbook n'est pas sur le cluster. Êtes-vous sûr de l'avoir nommé correctement ?",
+                    "de": "Das Playbook #>V:Trigram#-playbook ist nicht im Cluster. Sind Sie sicher, dass Sie es richtig benannt haben ?"
                 },
                 {
                     "en": "Are you sure your trigger is correctly set ?",
-                    "fr": "Etes-vous sûr que votre déclencheur est correctement configuré ?"
+                    "fr": "Etes-vous sûr que votre déclencheur est correctement configuré ?",
+                    "de": "Sind Sie sicher, dass Ihr Trigger korrekt eingestellt ist ?"
                 },
                 {
                     "en": "It is strange, actions are wrong. We need only one action which sends an email. Can you fix it ?",
-                    "fr": "C'est étrange, les actions sont incorrectes. Nous avons besoin d'une seule action qui envoie un email. Pouvez-vous corriger ça ?"
+                    "fr": "C'est étrange, les actions sont incorrectes. Nous avons besoin d'une seule action qui envoie un email. Pouvez-vous corriger ça ?",
+                    "de": "Es ist seltsam, die Aktionen sind falsch. Wir brauchen nur eine Aktion, die eine E-Mail sendet. Können Sie das beheben ?"
                 },
                 {
                     "en": "The playbook is not enabled. Can you fix it ?",
-                    "fr": "Le playbook n'est pas activé. Pouvez-vous corriger ça ?"
+                    "fr": "Le playbook n'est pas activé. Pouvez-vous corriger ça ?",
+                    "de": "Das Playbook ist nicht aktiviert. Können Sie das beheben ?"
                 }
             ]
         },
@@ -312,11 +363,13 @@
             "clues": [
                 {
                     "en": "The app #>V:Trigram#-app is not on the cluster. Are you sure you named it correctly?",
-                    "fr": "L'application #>V:Trigram#-app n'est pas sur le cluster. Êtes-vous sûr de l'avoir nommée correctement ?"
+                    "fr": "L'application #>V:Trigram#-app n'est pas sur le cluster. Êtes-vous sûr de l'avoir nommée correctement ?",
+                    "de": "Die App #>V:Trigram#-app ist nicht im Cluster. Sind Sie sicher, dass Sie sie richtig benannt haben ?"
                 },
                 {
                     "en": "Automation has not created VPC #>V:Trigram#-vpc, that is weird. Can you check apps log in its audit panel? You can delete it and redeploy app if you used a bad vpc name.",
-                    "fr": "L'automatisation n'a pas créé le VPC #>V:Trigram#-vpc, c'est bizarre. Pouvez-vous vérifier les logs de l'application dans son panneau d'audit ? Vous pouvez le supprimer et redéployer l'application si vous avez utilisé un mauvais nom de VPC."
+                    "fr": "L'automatisation n'a pas créé le VPC #>V:Trigram#-vpc, c'est bizarre. Pouvez-vous vérifier les logs de l'application dans son panneau d'audit ? Vous pouvez le supprimer et redéployer l'application si vous avez utilisé un mauvais nom de VPC.",
+                    "de": "Die Automatisierung hat den VPC #>V:Trigram#-vpc nicht erstellt, das ist seltsam. Können Sie die Protokolle der App in ihrem Audit-Panel überprüfen ? Sie können es löschen und die App neu bereitstellen, wenn Sie einen falschen VPC-Namen verwendet haben."
                 }
             ]
         },
@@ -325,11 +378,13 @@
             "clues": [
                 {
                     "en": "The schedule #>V:Trigram#-sched is not associated to the app. Can you fix it ?",
-                    "fr": "Le schedule #>V:Trigram#-sched n'est pas associé à l'application. Pouvez-vous corriger ça ?"
+                    "fr": "Le schedule #>V:Trigram#-sched n'est pas associé à l'application. Pouvez-vous corriger ça ?",
+                    "de": "Der Zeitplan #>V:Trigram#-sched ist nicht mit der App verknüpft. Können Sie das beheben ?"
                 },
                 {
                     "en": "You have created #>V:Trigram#-sched ?? It seems not to be the case... Can you check it ?",
-                    "fr": "Vous avez créé le schedule #>V:Trigram#-sched ?? On ne dirait pas... Pouvez-vous corriger ça ?"
+                    "fr": "Vous avez créé le schedule #>V:Trigram#-sched ?? On ne dirait pas... Pouvez-vous corriger ça ?",
+                    "de": "Sie haben den Zeitplan #>V:Trigram#-sched erstellt ?? Es scheint nicht der Fall zu sein... Können Sie das beheben ?"
                 }
                 
             ]
@@ -339,10 +394,12 @@
             "clues": [
                 {
                     "en": "The blueprint bp-blankvm-prd#>V:Vlanid# is not on the cluster. Have you changed his name?",
-                    "fr": "Le blueprint bp-blankvm-prd#>V:Vlanid# n'est pas sur le cluster. Avez-vous changé son nom ?"
+                    "fr": "Le blueprint bp-blankvm-prd#>V:Vlanid# n'est pas sur le cluster. Avez-vous changé son nom ?",
+                    "de": "Das Blueprint bp-blankvm-prd#>V:Vlanid# ist nicht im Cluster. Haben Sie seinen Namen geändert ?"
                 },{
                     "en": "I do not see the 'foo' task in the create action of your VM, please check it.",
-                    "fr": "Je ne vois pas la tâche 'foo' dans l'action de création de votre VM, merci de vérifier."
+                    "fr": "Je ne vois pas la tâche 'foo' dans l'action de création de votre VM, merci de vérifier.",
+                    "de": "Ich sehe die Aufgabe 'foo' nicht in der Erstellungsaktion Ihrer VM, bitte überprüfen Sie das."
                 }
             ]
         }           
