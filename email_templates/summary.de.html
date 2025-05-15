@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nutanix Summary</title>
+  <style>
+    body {
+      background-color: #000000;
+      color: #FFFFFF;
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+    }
+    h1, h2, h3, h4 {
+      color: #600996; /* purple */
+    }
+    ul {
+      margin-left: 1.5rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    p {
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+<h1>Zusammenfassung</h1>
+<p>Herzlichen Glückwunsch! Und vielen Dank, dass Sie an unserem interaktiven Labor teilgenommen haben, das Ihnen einen kleinen Einblick in die Möglichkeiten von Nutanix gegeben hat. Wir hoffen, dass Ihnen die Erfahrung gefallen hat und Sie sie als nützlich empfunden haben.</p>
+
+<p>Zum Abschluss dieser Erfahrung finden Sie hier eine Zusammenfassung dessen, was Sie heute gesehen haben, mit einigen zusätzlichen Details. Bevor Sie fortfahren, nehmen Sie sich bitte ein paar Sekunden Zeit, um <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=RnUEu2944U29dSTltveQQ5eGXEKzLRZCmRhCeuhDeeFUOUMyVjRDNEZDWDFDOUVJT0FVU1kzV01QUS4u">diese Umfrage</a> auszufüllen. Vielen Dank!</p>
+
+<h1>Nutanix Cloud Infrastructure (NCI) & Prism</h1>
+
+<h2>Prism</h2>
+<p>Prism Central ist die Hauptschnittstelle für die Interaktion mit einer Nutanix-Plattform. Sie fasst nahezu alle auf unserer Cloud-Plattform gehosteten Dienste zusammen und verwaltet alle oder einen Teil der Nutanix-Cluster, die Sie besitzen.</p>
+
+<p>Nutanix hat alles daran gesetzt, die Prism Central-Erfahrung einfach und intuitiv zu gestalten, weil wir glauben, dass Sie kein Experte sein müssen, um eine IT-Plattform im Alltag zu verwalten.</p>
+
+<h2>Multimandantenfähigkeit/RBAC</h2>
+<p>Sie haben dies durch die Verwendung von Projekten und die Zuweisung von Rollen erlebt. Die Nutanix-Plattform ermöglicht es Ihnen, einen Multi-User-Ansatz nativ zu verwalten, sich mit Ihren Verzeichnissen zu verbinden und vordefinierte oder angepasste Rollen mit sehr feiner Granularität zuzuweisen. Jeder verbundene Benutzer sieht nur die Ressourcen, für die er Rechte hat, ebenso wie für Dienste, wodurch jede unbefugte Interaktion oder Indiskretion mit anderen Benutzern vermieden wird.</p>
+
+<h2>Die Stärke der Kategorien</h2>
+<p>Nutanix bietet das Konzept der Kategorie im Key/Value-Format, das mit den meisten Clusterelementen (Cluster, Nodes, VMs, Images, Netzwerke usw.) verknüpft werden kann. Diese Kategorien ermöglichen:</p>
+<ul>
+  <li>Schnelle Identifizierung von Elementen durch Suchen mit diesen Kategorien</li>
+  <li>Benutzerrechteverwaltung für diese kategorisierten Elemente</li>
+  <li>Verknüpfung mit Managementrichtlinien (Schutz, Sicherheit, Speicher oder Affinität)</li>
+</ul>
+<p>Diese Kategorien können auch von Ihren Backup-Tools verwendet werden, um zu schützende VMs zu identifizieren.</p>
+
+<h2>Netzwerkmanagement</h2>
+
+<h3>Integriertes IPAM</h3>
+<p>Mit AHV stellt Nutanix ein integriertes IPAM bereit. Wenn Sie Ihr Subnetz erstellen, können Sie einen IP-Bereich definieren, der VMs zugewiesen wird, die per DHCP konfiguriert und in diesem Netzwerk bereitgestellt werden. Praktisch.</p>
+
+<h3>Software Defined Network</h3>
+<p>Ebenfalls mit AHV bietet Nutanix eine Software Defined Network-Lösung an. Diese Lösung ermöglicht unter anderem:</p>
+<ul>
+  <li>Definition von Mikrosegmentierungsregeln: Filtern Sie den Netzwerkverkehr zwischen Ihren VMs und zwischen Ihren VMs und der Außenwelt.</li>
+  <li>Definition privater Netzwerke, die Ihre VMs vom Rest des Clusters isolieren und die Wiederverwendung derselben IP-Adresse ermöglichen, z. B. zu Testzwecken.</li>
+</ul>
+
+<h2>Integrierte Disaster Recovery</h2>
+<p>Produktionsumgebungen müssen geschützt werden, und Backup ist oft nicht die beste Lösung für eine schnelle Wiederherstellung. Dafür bietet Nutanix die Möglichkeit, Snapshots automatisch zu steuern (ohne Speicherkosten oder Auswirkungen auf die Leistung) und sie bei Bedarf auf einen zweiten Standort zu replizieren, mit einem RPO ab 0. Neustarts können automatisch (über einen Witness) oder manuell orchestriert werden, sodass Sie den Neustart selbst steuern können, um Dienste in der für den Betrieb am besten geeigneten Reihenfolge bereitzustellen.</p>
+
+<h2>Verteilte, resiliente und sichere Speicherung</h2>
+<p>Nutanix ist der Pionier der Hyperkonvergenz, deren Prinzip darin besteht, die Rechen- und Speicherressourcen traditioneller Server in einem einzigen Ressourcenpool zusammenzufassen, der von VMs genutzt werden kann. Im Bereich Storage muss die Hyperkonvergenzlösung Datenresilienz und Sicherheit verwalten. Nutanix hat technische Entscheidungen getroffen, um die Leistung des verteilten Speichers zu optimieren, die Wiederherstellungszeiten bei Festplatten-/Node-Ausfällen zu verkürzen und alle Datenreduktionsoptionen (Komprimierung, Deduplizierung und/oder Erasure-Coding) sowie Verschlüsselung (software- oder hardwarebasiert) nativ und effizient zu verwalten.</p>
+
+<h2>Skalierung</h2>
+<p>Die Nutanix-Lösung wurde mit dem Ziel entwickelt, die gleiche Flexibilität wie die Public Cloud zu bieten, insbesondere mit der Fähigkeit, ohne Einschränkungen zu wachsen. Die Hauptidee ist, zu vermeiden, zu viel zu kaufen und Ihren Bedarf für die nächsten 5 Jahre zu überschätzen. Mit Nutanix wählen Sie eine Lösung, die Ihre kurzfristigen Anforderungen abdeckt und später durch das Hinzufügen neuer Nodes erweitert werden kann. Nutanix verwaltet das Hinzufügen von Nodes sehr einfach (wie Sie gesehen haben), ermöglicht Ihnen heterogene Hardware und sorgt für ein stabiles Leistungsniveau trotz steigender Workload-Anforderungen.</p>
+
+<h2>Einfache und sichere Upgrades</h2>
+<p>Mit LCM ermöglicht Nutanix die Aktualisierung seines Software- und Hardware-Stacks mit nur wenigen Klicks. Vergessen Sie die Stunden, die Sie mit dem Vergleich von Kompatibilitätsmatrizen und der Definition von Upgrade-Pfaden für Ihr IS verbringen: Nutanix übernimmt das jetzt für Sie. In LCM markieren Sie die Produkte, die für ein Upgrade vorgeschlagen werden, und die Plattform prüft die Voraussetzungen und definiert die Reihenfolge der Upgrades. Kommen Sie ein paar Stunden später zurück und Ihre Plattform ist auf dem neuesten Stand – ohne Serviceunterbrechung.</p>
+
+<h1>Nutanix Cloud Manager (NCM)</h1>
+<p>Zusätzlich zur Kernkomponente NCI bietet Nutanix eine Reihe von Funktionen, die Kunden dabei helfen, ihre Informationssysteme im operativen Zustand zu halten. Hier ein Überblick.</p>
+
+<h2>Individuelle Dashboards und Berichte</h2>
+<p>Die Prism Central-Oberfläche kann angepasst werden, um Dashboards zu erstellen, die auf die Bedürfnisse jedes Benutzers zugeschnitten sind. Diese Dashboards können dann zwischen Benutzern geteilt werden, um die Effizienz zu steigern. Prism ermöglicht auch die Definition vollständig personalisierter Berichte, die auf Abruf oder automatisch generiert und an die gewünschten Empfänger gesendet werden können.</p>
+
+<h2>Größenempfehlungen</h2>
+<p>Nutanix überwacht Ihre VMs täglich und gibt Ihnen Empfehlungen zur Dimensionierung. Zu viel CPU, zu wenig RAM, eine VM, die nichts tut – suchen Sie nicht selbst danach, all diese Informationen erhalten Sie in Form von Warnungen. Ihr unmittelbarer Vorteil: Ressourceneinsparungen und bessere SLAs für Ihre Anwendungen.</p>
+
+<h2>Intelligente Kapazitätsplanung</h2>
+<p>Nutanix unterstützt seine Kunden mit einer intelligenten Kapazitätsplanungs-Engine, die abschätzen kann, wann Ihr Cluster ausgelastet sein wird, und Ihnen ein Jahr Vorlaufzeit gibt, damit Sie Ihr Budget organisieren können. Planen Sie eine Übernahme? Eine neue Anwendung? Geben Sie Ihre neuen Anforderungen ein, und die Kapazitätsplanung macht Empfehlungen für die geeignetsten Erweiterungen (Typ und Anzahl der Nodes, Zeitpunkt der Erweiterung).</p>
+
+<h2>Low-Code-Automatisierung</h2>
+<p>Jeder braucht Automatisierung, aber nicht jeder ist Entwickler. Dafür stellt Nutanix eine Low-Code-Automatisierungslösung bereit, mit der Sie einen Auslöser gefolgt von Aktionen Ihrer Wahl definieren können. Einfach und effektiv. Für welche Anwendungsfälle?</p>
+<ul>
+  <li>Automatische Kategorisierung von VMs</li>
+  <li>Automatische CMDB-Aktualisierung</li>
+  <li>Automatische Behebung falsch sortierter VMs</li>
+</ul>
+
+<h2>Automatisierung mit Marketplace</h2>
+<p>Nutanix bietet für Kunden, die fortgeschrittenere Automatisierung suchen, die 'Self-Service'-Lösung. Diese Multi-Cloud-Automatisierungs-Engine ermöglicht es, Blueprints zu definieren und über einen Marketplace bereitzustellen, wodurch der Zugriff auf diesen Servicekatalog für Fachabteilungen vereinfacht wird. Stellen Sie Ihre Anwendungen auf die gleiche Weise in der Cloud oder On-Prem bereit und implementieren Sie Genehmigungs-Workflows zur Steuerung der Bereitstellungen.</p>
+
+<h2>Sicherheitsdashboard</h2>
+<p>Nutanix erkennt Schwachstellen von Assets und die Einhaltung aktueller Vorschriften auf einem einzigen Dashboard. Es betrifft nicht nur Ihre Rechenzentrums-Assets, Sie können auch Ihre Public-Cloud-Assets in dasselbe Tool integrieren, sodass Sie einen globalen Überblick über die Sicherheit Ihres IS haben.</p>
+
+<h1>Was Sie nicht gesehen haben</h1>
+
+<h2>NKP: Nutanix Kubernetes Platform</h2>
+<p>Nutanix bietet eine Lösung zur Bereitstellung von Kubernetes-Upstream-Clustern im großen Maßstab und über mehrere Clouds hinweg. Zu den Funktionen gehören:</p>
+<ul>
+  <li>Einfache Bereitstellung, Aktualisierung und Skalierung von Kubernetes-Clustern.</li>
+  <li>Bereitstellung vorkonfigurierter und vorvalidierter Anwendungs-Stacks, um die Interoperabilität all dieser Elemente sicherzustellen.</li>
+  <li>Lösungen zur Überprüfung des ordnungsgemäßen Betriebs der Cluster und zur Anwendung von Best Practices auf diese und die Anwendungen.</li>
+</ul>
+
+<h2>NC2: Nutanix Cloud Cluster</h2>
+<p>Müssen Sie in die Cloud wechseln, haben aber Bedenken hinsichtlich Kosten und Lock-in-Risiken? Mit Nutanix können Sie Nutanix-Cluster bei Cloud-Anbietern bereitstellen und diese Assets genauso verwalten wie Ihre On-Prem-Infrastruktur – in derselben Oberfläche.</p>
+<ul>
+  <li>Kein zusätzliches Wissen erforderlich.</li>
+  <li>Migration Ihrer Rechenzentren in die Cloud wird vereinfacht und beschleunigt (einfache VM-„Migration“).</li>
+  <li>Kein Lock-in, da Sie den Cloud-Anbieter wechseln können, indem Sie Ihre Assets von einem NC2-Cluster auf einen anderen migrieren.</li>
+</ul>
+
+<h2>NUS: Nutanix Unified Storage</h2>
+<p>Nutanix bietet mehrere integrierte Speicherlösungen auf seiner Cloud-Plattform:</p>
+<ul>
+  <li>Blockspeicher (iSCSI)</li>
+  <li>Dateispeicher (NFS und SMB/CIFS)</li>
+  <li>Objektspeicher (S3)</li>
+</ul>
+<p>Alle diese Dienste können mit nur wenigen Klicks auf der Plattform bereitgestellt werden, sodass Sie sie schnell und einfach mit Enterprise-Funktionen nutzen können. Sie können auch Data Lens nutzen, mit dem Sie Ihre Daten abbilden, verdächtige Benutzer melden, vermutete Ransomware usw. erkennen können...</p>
+
+<h2>Nutanix Cost Governance</h2>
+<p>Mit NCM stellt Nutanix auch ein Tool zur Verwaltung Ihrer Kosten bereit: Ordnen Sie Ihre On-Prem- und Cloud-Assets Kostenstellen/Business Units zu, überwachen Sie die Kostenentwicklung für jede davon, prüfen Sie die Einhaltung eines Budgets und setzen Sie die von der Lösung vorgeschlagenen Einsparungsempfehlungen um. Eine Lösung, mit der Sie Ihre On-Prem- und Cloud-Ausgaben visualisieren und steuern können.</p>
+
+<p>Wenn Sie mehr über unsere Lösungen erfahren möchten, wenden Sie sich bitte an Ihr Account-Team, um detailliertere Präsentationen zu vereinbaren und die Integration von Nutanix-Lösungen in Ihre spezielle Umgebung zu besprechen.</p>
+
+</body>
+</html>
