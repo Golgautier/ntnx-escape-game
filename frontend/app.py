@@ -8,7 +8,6 @@ app = Flask(__name__)
 # Definition of the global variables
 load_dotenv('config.env')
 
-
 def loadScores():
     """
     Load scores from the scores.json file located in the parent directory.
@@ -37,7 +36,6 @@ def loadScores():
                 file_data["player"] = trigram
                 data["score"].append(file_data)
 
-
     print("Loaded scores from:", data)
 
     # Sort scores by player name
@@ -45,16 +43,6 @@ def loadScores():
     return data
 
 @app.route('/')
-def scoreBoard():
-    """
-    Render the scoreboard page with scores and maximum score.
-
-    Returns:
-        str: Rendered HTML of the scoreboard page.
-    """
-    data = loadScores()
-    return render_template('scoreboard.html', maximumScore=data["maximumScore"], scores=data["score"])
-
 @app.route('/terminal')
 def terminal():
     """
@@ -73,8 +61,18 @@ def ssh():
     Returns:
         str: Rendered HTML of the terminal page.
     """
-    return render_template('terminal2.html', hostname=os.getenv('FRONTENDHOST'), username=os.getenv('HOSTSSHUSERNAME'), password=base64.b64encode(os.getenv('HOSTSSHPASSWORD').encode("ascii")).decode('utf-8'))
+    return render_template('terminal2.html', hostname=os.getenv('FRONTENDHOST'), username=os.getenv('PLAYERSSHUSERNAME'), password=base64.b64encode(os.getenv('PLAYERSSHPASSWORD').encode("ascii")).decode('utf-8'))
+
+@app.route('/scoreboard')
+def scoreBoard():
+    """
+    Render the scoreboard page with scores and maximum score.
+
+    Returns:
+        str: Rendered HTML of the scoreboard page.
+    """
+    data = loadScores()
+    return render_template('scoreboard.html', maximumScore=data["maximumScore"], scores=data["score"])
 
 if __name__ == '__main__':
     app.run(host=os.getenv('FRONTENDHOST'), port=os.getenv('FRONTENDPORT'), debug=True)
-    app.run(debug=True)

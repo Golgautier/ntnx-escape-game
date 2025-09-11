@@ -33,8 +33,7 @@ def NeedRecovery(variables,recoveryMode):
     
     if not (variables['Language'] in data['supportedLanguages']):
         variables['Language']='en'
-    
-      
+          
     # We check if the score file exists for this trigram
     scoreFile=scoreFolder+"/"+variables['Trigram']+".json"
 
@@ -45,10 +44,12 @@ def NeedRecovery(variables,recoveryMode):
         try:
             with open(scoreFolder+"/"+variables['Trigram']+".json", 'r') as fileScore:
                 data = json.load(fileScore)
+            
+            if data and "username" in data:
+                variables["Username"] = data["username"]
         except:
             data={}
         
-    
     if data!={} and data['value'] > 2:
         variables['RecoveryUntilStage']=data['value']
         print("\n\nSpecial event : Entering in recovery mode ( Recovery Code :",variables['RecoveryUntilStage'],")...\n\n")

@@ -170,3 +170,4 @@ sendgrid.env
 trash
 .vscode
 score
+.DS_Store

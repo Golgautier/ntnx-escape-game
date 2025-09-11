@@ -220,7 +220,7 @@ def GetSupportedLanguages(json_file_path):
 # = UpdateScoreFile
 # ========================================================================
 # This function updates the score file with the format Trigram:Stage
-def UpdateScoreFile(scoreFolder, trigram, stage, maxStage):
+def UpdateScoreFile(scoreFolder, trigram, stage, maxStage, variables=None):
     
     # We setup the score filename for this user
     scoreFile=scoreFolder + "/" + trigram + ".json"
@@ -243,6 +243,12 @@ def UpdateScoreFile(scoreFolder, trigram, stage, maxStage):
     # # Update the score for the given trigram
     # jsonpath_expr = parse('$.score[?(@.player == "' + trigram + '")]')
     # result = jsonpath_expr.find(score)
+
+    # Save the username if available
+    if variables and "Username" in variables and variables["Username"]:
+        username = str(variables["Username"]).strip()
+        if username and "username" not in scoreJson:
+            scoreJson["username"] = username
 
     # Check is the game is finished
     if stage >= maxStage:

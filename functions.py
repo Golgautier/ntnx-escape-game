@@ -406,10 +406,20 @@ def retrieveSecurityPolicyInfo(policy_name, variables):
     network_security_policies_api = ntnx_microseg_py_client.NetworkSecurityPoliciesApi(api_client=client)
 
     try:
-        api_response = network_security_policies_api.list_network_security_policies(_page=page, _limit=limit, _filter="name eq '" + policy_name + "'")
-        api_response2 = network_security_policies_api.get_network_security_policy_by_id(extId=api_response._ListNetworkSecurityPoliciesApiResponse__data[0].ext_id)
-    except ntnx_microseg_py_client.rest.ApiException as e:
+        api_response = network_security_policies_api.list_network_security_policies(
+            _page=page, _limit=limit, _filter="name eq '" + policy_name + "'"
+        )
+
+        if not getattr(api_response, "data", None):
+            return None
+
+        api_response2 = network_security_policies_api.get_network_security_policy_by_id(
+            extId=api_response.data[0].ext_id
+        )
+
+    except (ntnx_microseg_py_client.rest.ApiException, AttributeError, IndexError) as e:
         print(e)
+        return None
 
     return api_response2.data.to_dict()
 
